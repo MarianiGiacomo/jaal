@@ -1,0 +1,24 @@
+{
+  "id": String,
+  "type": "list",
+  "first": {
+    "id": String,
+    "value": Any,
+    "next": {
+      "id": String,
+      "value": Any,
+      "next": { ... },
+      "edgeToNext": { ... }
+    },
+    "edgeToNext": {
+      "startNode": {
+        "id": String,
+        "value": Any
+      },
+      "endNode": {
+        "id": String,
+        "value": Any
+      }
+    }
+  }
+}
